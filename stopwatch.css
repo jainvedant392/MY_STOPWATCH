@@ -1,0 +1,74 @@
+body{
+    color: white;
+    background-color: rgb(44, 43, 43);
+    font-family: 'Cairo', sans-serif;
+}
+*{margin: 0; padding: 0;}
+#head{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, 
+        Helvetica, sans-serif;
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#Time{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#time{
+    background-color: rgb(25, 180, 25);
+    border-radius:30px ;
+    border: solid rgb(8, 88, 8);
+    box-shadow: 2px 2px 4px white;
+    width: 330px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+#Buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+#buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 580px;
+    height: 50px;
+    margin-top: 50px;
+}
+#start,#stop,#lap,#reset{
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 7px;
+    background-color: rgb(60, 235, 235);
+    box-shadow: 1px 1px 3px white;
+    transition: all 0.2s;
+}
+#start:hover,#stop:hover,#lap:hover,#reset:hover{
+    background-color: white;
+    width: 110px;
+    height: 38px;
+    margin-right: -10px;
+}
+#start:active,#stop:active,#lap:active,#reset:active{
+    background-color: rgb(60, 235, 235);
+    width: 100px; height: 35px;
+    margin-right: 0px;
+}
+#laps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}

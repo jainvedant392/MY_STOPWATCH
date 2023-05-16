@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOPWATCH</title>
+    <link rel="stylesheet" href="stopwatch.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="head"><h1>STOPWATCH</h1></div>
+    <div id="Time">
+        <div id="time">
+            <div id="hours">00</div> <div>:</div>        
+            <div id="minutes">00</div> <div>:</div>
+            <div id="seconds">00</div> <div>:</div>        
+            <div id="miniseconds">00</div>
+        </div>
+    </div>
+    <div id="Buttons">
+        <div id="buttons">
+            <button class="buttons" id="start" onclick="start()">START</button>
+            <button class="buttons" id="stop" onclick="stop()">STOP</button>   
+            <button class="buttons" id="reset" onclick="reset()">RESET</button>
+            <button class="buttons" id="lap" onclick="lapping()">LAP</button>
+        </div>  
+    </div>
+    <div id="laps"></div>
+    <script src="stopwatch.js"></script> 
+</body>
+</html>
